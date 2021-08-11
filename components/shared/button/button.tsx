@@ -18,3 +18,5 @@ export const Button: React.FC<IButton> = ({action, name, classname, disabled}) =
         </button>
     )
 }
+
+//todo CSS свойства для заблокированной кнопки

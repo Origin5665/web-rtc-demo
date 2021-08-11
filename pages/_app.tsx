@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import {AppProps} from "next/dist/next-server/lib/router/router";
-import '../styles/globals.scss'
+import Head from 'next/head';
+import {AppProps} from 'next/dist/next-server/lib/router/router';
+import '../styles/globals.scss';
+import 'antd/dist/antd.css';
 
 const Home = ({Component, pageProps}: AppProps) => {
     return (
@@ -18,5 +19,4 @@ const Home = ({Component, pageProps}: AppProps) => {
 
     )
 }
-
 export default Home;
